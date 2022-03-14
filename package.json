@@ -1,0 +1,37 @@
+{
+  "name": "workflow-BE",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "repository": "https://github.com/Alpha1202/workflow-BE.git",
+  "author": "Nzubechukwu Nnamani <nzubennamani@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node --max-old-space-size=8192 ./src/app.js ",
+    "build-server": "babel src --out-dir src",
+    "start": "npm run build-server && node src/app.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0",
+    "@babel/runtime": "^7.17.2",
+    "babel-plugin-istanbul": "^6.1.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5",
+    "morgan": "^1.10.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15"
+  }
+}
