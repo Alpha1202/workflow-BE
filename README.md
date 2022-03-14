@@ -5,7 +5,7 @@ Workflow Editor - A smart workflow editor for great researchers.
 ## Getting Started
 Clone the Repo.
 -------------
-`git clone https://github.com/Alpha1202/labforward-BE.git`
+`git clone https://github.com/Alpha1202/workflow-BE.git`
 
 ## Prerequisites
 The following tools will be needed to run this application successfully:
@@ -15,7 +15,7 @@ The following tools will be needed to run this application successfully:
 
 ## Installation
 **On your Local Machine**
-- Pull the [dev](https://github.com/Alpha1202/labforward-BE.git) branch off this repository
+- Pull the [dev](https://github.com/Alpha1202/workflow-BE.git) branch off this repository
 - Run `yarn i` to install all dependencies
 - Run `yarn run dev` to start the app
 - Access endpoints on **localhost:3000**
