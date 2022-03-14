@@ -1,4 +1,4 @@
-import { db, workflow } from "../../db/connection";
+import { workflow } from "../../db/connection";
 
 export const saveWorkflow = async (payload) => {
   try {
