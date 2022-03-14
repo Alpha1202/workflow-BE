@@ -2,6 +2,8 @@ import "regenerator-runtime/runtime.js";
 import express from "express";
 import cors from "cors";
 
+import {connectToCluster } from './db/connection';
+
 const app = express();
 
 app.use(express.json());
